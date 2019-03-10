@@ -33,7 +33,7 @@ void draw() {
   rect(pal1, height-10, 100, 10);
   rect(pal2, 0, 100, 10);
 
-  if (mousePressed) {   
+  if (touchIsStarted) {   
     if (mouseY>height/2) {  //parte inferior de la pantalla
       if (mouseX>width/2) {
         pal1 = pal1 +velPal;
