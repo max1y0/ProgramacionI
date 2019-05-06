@@ -1,9 +1,3 @@
-//1 dibujar una pelota en un fondo contrastante
-//2 hacer que la pelota se mueva horizontalmente
-//3 hacer que la pelota se mueva verticalmente
-//4 Detectemos los bordes!
-
-
 int circX;
 int circY;
 int velX;
