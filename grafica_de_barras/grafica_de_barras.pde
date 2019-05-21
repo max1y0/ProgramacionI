@@ -1,13 +1,19 @@
-int[] datos = {12,4,6,9,9,9,12};
-int ancho= 20;
-int escala = 10;
+int[] datos = {12, 4, 6, 9, 8, 9, 12, 1, 15};
+int ancho;
+int escala;
 
-void setup(){
-  size(600,400);
+void setup() {
+  size(600, 400);
 }
 
-void draw(){
-  for (int i = 0; i < datos.length; i++){
-    rect(i*ancho,height - 50,ancho,-datos[i]*escala);
+void draw() {
+  dibujarArr(datos);
+}
+
+void dibujarArr(int[] datos){
+  int ancho= 600/datos.length;
+  int escala = height/15;
+  for (int i = 0; i < datos.length; i++) {
+    rect(i*ancho, height, ancho, -datos[i]*escala);
   }
 }
