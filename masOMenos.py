@@ -1,6 +1,11 @@
 def masOMenos(precioOculto,precioAdivinado):
   #programar tu función acá
-
+	if (precioOculto == precioAdivinado):
+		return "acertaste"
+	if (precioOculto >precioAdivinado):
+		return "+"
+	else:
+		return "-"
 
 
 
@@ -12,7 +17,7 @@ precioAdivinado = 0
 
 print("Vamos a adivinar el precio de una mochila!")
 print("Entre 1000 y 9990")
-print("Ingresá el premio que creés que sale! \n")
+print("Ingresá el precio que creés que sale! \n")
 
 #MIENTRAS ambos precios sean diferentes, REPETIR
 while (precioOculto != precioAdivinado):
