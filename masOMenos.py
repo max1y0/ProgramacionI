@@ -1,11 +1,6 @@
 def masOMenos(precioOculto,precioAdivinado):
   #programar tu función acá
-	if (precioOculto == precioAdivinado):
-		return "acertaste"
-	if (precioOculto >precioAdivinado):
-		return "+"
-	else:
-		return "-"
+
 
 
 
