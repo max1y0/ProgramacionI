@@ -81,7 +81,7 @@ Escapan por los pelos, pero el cofre quedo atras.
     # ── RAMA A-B ─────────────────────────────────────────────
     elif eleccion_2a == "B":
         print("""El camino de las luciernagas los lleva hasta un claro
-donde hay una cabana con la puerta entreabierta. Dentro se
+donde hay una cabaña con la puerta entreabierta. Dentro se
 escucha el sonido de alguien llorando.
 
 "Ahi esta el problema," murmura la oveja, "pero hay un guardia
@@ -183,48 +183,15 @@ Todo bien que termina bien, aunque fue raro.
 
     # ── RAMA B-B ─────────────────────────────────────────────
     elif eleccion_2b == "B":
-        print("""Pedis el 20% del tesoro que haya en la torre del hechicero
+        print("""Pedis el 50% del tesoro que haya en la torre del hechicero
 y que la oveja te ensene el idioma ovejil al terminar.
 
-Ella lo piensa cinco segundos. "Trato hecho."
+Ella lo piensa cinco segundos. "Ni a ganchos."
 
-Llegan a la torre al amanecer. La puerta esta abierta de par
-en par. Demasiado fácil. La oveja frunce el hocico.
-
-"Esto es una trampa," dice.
+La oveja se aleja de tu mesa. Se la escucha murmurar "viejo aburrido"
 """)
-        print("Que decidis?")
-        print("  A) Entras igual, con cuidado")
-        print("  B) Esperas afuera y observas primero")
-        eleccion_3bb = input("Tu eleccion (A/B): ").strip().upper()
 
-        print()
-
-        if eleccion_3bb == "A":
-            print("""Entras con la mano en la espada. Era una trampa:
-el suelo es pegajoso y tus botas quedan atascadas.
-
-El hechicero aparece riendo... pero entonces la oveja
-empieza a lanzarle mechones de lana. El hechicero es alergico.
-Entre estornudo y estornudo, no puede lanzar ningun hechizo.
-Lo atrapan con su propia capa.
-
-La mision fue un exito (y bastante ridicula).
-""")
-            print("FIN: Alergias al rescate (no pregunten)")
-
-        else:
-            print("""Esperan escondidos entre los arbustos. Media hora despues,
-el hechicero sale de la torre... de vacaciones! Lleva una
-valija y silba alegremente. Se va en una nube magica.
-
-Con la torre vacia, entran sin problemas. La familia oveja
-estaba encerrada en el sotano. Las liberan, cobran el tesoro
-y la oveja te ensena a decir "buenos dias" en ovejil: "Beeee-nos dias."
-
-No fue heroico, pero funciono.
-""")
-            print("FIN: El hechicero estaba de vacaciones")
+        print("FIN: Negociar con una oveja sale mal")
 
     else:
         print("Opcion no valida. La oveja firmo el contrato sola y se fue.")
